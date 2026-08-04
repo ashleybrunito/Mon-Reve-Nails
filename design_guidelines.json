@@ -1,0 +1,157 @@
+{
+  "project_name": "Mon Reve Nail Spa",
+  "theme": "light",
+  "concept": "Awwwards-level luxury nail salon marketing site. Aesthetic: Elegant pink, white, soft gold, airy spacing, subtle floral details, and luxury editorial feel.",
+  "colors": {
+    "background": "hsl(0, 0%, 100%)",
+    "surface": "hsl(340, 30%, 98%)",
+    "primary": "hsl(340, 45%, 82%)",
+    "primary_foreground": "hsl(0, 0%, 10%)",
+    "secondary": "hsl(43, 60%, 75%)",
+    "secondary_foreground": "hsl(0, 0%, 100%)",
+    "text_primary": "hsl(340, 10%, 15%)",
+    "text_secondary": "hsl(340, 10%, 40%)",
+    "accent": "hsl(340, 20%, 92%)",
+    "border": "hsl(340, 20%, 90%)"
+  },
+  "typography": {
+    "headings": {
+      "family": "Cormorant Garamond, serif",
+      "weights": ["300", "400", "600"],
+      "usage": "Hero typography, section headers, numbered manifesto chapters. Use tracking-tighter."
+    },
+    "body": {
+      "family": "Outfit, sans-serif",
+      "weights": ["300", "400", "500"],
+      "usage": "All paragraph text, buttons, and navigation. Clean geometric readability."
+    },
+    "accent": {
+      "family": "Playfair Display, serif",
+      "weights": ["400", "600"],
+      "style": "italic",
+      "usage": "Used selectively for small labels, editorial callouts, and the Spanish EN/ES switcher."
+    },
+    "scale": {
+      "h1": "text-5xl sm:text-6xl lg:text-[5rem] leading-none tracking-tighter",
+      "h2": "text-4xl sm:text-5xl leading-tight tracking-tight",
+      "h3": "text-2xl sm:text-3xl leading-snug",
+      "body": "text-base sm:text-lg leading-relaxed text-text_secondary",
+      "overline": "text-xs uppercase tracking-[0.2em] font-medium"
+    }
+  },
+  "spacing_and_layout": {
+    "strategy": "Generous Spacing Philosophy",
+    "section_padding": "py-24 md:py-32 lg:py-40",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "grid_system": "Bento Grid Protocol Mode A (Tetris) for Gallery. Asymmetrical layout for Services and Home manifesto. Use col-span-full md:col-span-8 to create tension.",
+    "alignment": "Optical alignment. Left-aligned heavy typography with indented body copy for editorial feel."
+  },
+  "motion": {
+    "scrolling": "Lenis for buttery smooth momentum scrolling. Mandatory for premium feel.",
+    "hero_reveal": "Masked line-by-line typography reveal on load using framer-motion (initial Y offset 100%, animate to 0% with ease-[0.16,1,0.3,1]).",
+    "parallax": "Subtle parallax moment in the hero. Layer the logo, a soft pink floral texture in the background, and moving text to create depth on scroll via framer-motion.",
+    "marquee": "Slow editorial ribbon using react-fast-marquee. Text: 'MON REVE NAIL SPA • BEAUTY & LUXURY •' with low contrast pale gold bg and deep rose text.",
+    "interactions": "Hover states on all buttons: subtle scale up + glow. Image hover: slow scale-in 1.05 within hidden overflow container."
+  },
+  "components": {
+    "buttons": {
+      "primary": "Pill-shaped, bg-primary hover:bg-primary/90 text-primary_foreground, subtle shadow, text-sm uppercase tracking-widest.",
+      "secondary": "Outline button, border-secondary text-text_primary hover:bg-secondary/10, pill-shaped."
+    },
+    "header": {
+      "style": "Crystal Glassmorphism: sticky top-0 z-50 backdrop-blur-xl bg-white/70 border-b border-white/40.",
+      "elements": "Logo center or left. EN/ES prominent switcher. 'Book Appointment' click-to-call button. Desktop links visible, hamburger only on mobile. MUST NOT use full transparent background."
+    },
+    "cards": {
+      "services": "Cardless editorial layout. Clean lines (border-b border-border) connecting service name to price. No heavy drop shadows. High whitespace."
+    }
+  },
+  "pages": {
+    "home": {
+      "sections": [
+        "Kinetic Hero: Large 'Mon Reve' text with signature masked reveal. Parallax floating abstract floral texture. Main CTA: 'Book via Phone (646-750-9932)'.",
+        "Slow Editorial Marquee",
+        "Manifesto Chapters: Numbered (01, 02, 03) large editorial text blocks highlighting the luxury experience, bilingual toggle affects content.",
+        "Featured Services Preview: 3-column elegant grid.",
+        "Gallery Teaser: Asymmetrical overlapping images with 'View All' link."
+      ]
+    },
+    "services": {
+      "structure": "Editorial menu format.",
+      "categories": [
+        "Natural Nails",
+        "Pedicures",
+        "Builder Gel",
+        "Acrylic",
+        "Gel-X & Apres",
+        "Dip Powder",
+        "Add-ons",
+        "Signature Mon Reve Pedicure ($75)"
+      ],
+      "layout": "Categorized lists with clean dotted or solid connecting lines to prices. High-quality contextual photos floating alongside specific categories."
+    },
+    "gallery": {
+      "structure": "Responsive masonry or irregular bento grid.",
+      "features": "Lightbox for full image view. Placeholder area marked 'Future Spa Photos' stylized elegantly so it looks intentional (e.g., solid blush pink block with delicate text and subtle border)."
+    },
+    "contact": {
+      "layout": "Split screen: Typography and Information on left, Map on right.",
+      "details": [
+        "Address: 17171 Pines Blvd, Pembroke Pines, FL 33027 (Inside Sedano's, Kiosk #5)",
+        "Phone: 646-750-9932 (Massive Click-to-call button)",
+        "Hours: Mon-Sat 10 AM - 8 PM, Sun 11 AM - 5 PM"
+      ],
+      "map": "Live embedded Google Map."
+    }
+  },
+  "image_urls": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1764513168327-309c566fbc36?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbWluaW1hbCUyMGZsb3JhbCUyMHRleHR1cmUlMjBwaW5rfGVufDB8fHx8MTc4NTg3MDAwOHww&ixlib=rb-4.1.0&q=85",
+      "description": "Abstract soft pink and white flowing shapes - use as subtle texture/parallax layer"
+    },
+    "nail_art_1": {
+      "url": "https://images.unsplash.com/photo-1780402695869-49cfb47f9f9b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBuYWlsJTIwYXJ0JTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Intricate luxury nails for Gallery/Services"
+    },
+    "nail_art_2": {
+      "url": "https://images.unsplash.com/photo-1777287216954-2b4b22bb6bf2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBuYWlsJTIwYXJ0JTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Metallic stiletto nails for Gallery"
+    },
+    "pedicure_1": {
+      "url": "https://images.pexels.com/photos/32306096/pexels-photo-32306096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "description": "Luxury foot spa with floating flowers for Services (Pedicure section)"
+    },
+    "pedicure_2": {
+      "url": "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxzcGElMjBwZWRpY3VyZSUyMGx1eHVyeXxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Feet with flowers for Home page features"
+    },
+    "logo": {
+      "url": "/assets/logo.png",
+      "description": "Provided Mon Reve logo in /app/frontend/public/assets/logo.png"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Use framer-motion heavily for entrance animations. The hero MUST feature a line-by-line masked text reveal. Wrap text lines in hidden overflow containers and animate Y from 100% to 0.",
+    "Implement Lenis for smooth scrolling.",
+    "Ensure language toggle (EN/ES) is prominent in the header and functional. Provide English copy by default but design it to handle switching.",
+    "Never use generic card layouts. Aim for an editorial, magazine-style bento grid with heavy padding and asymmetrical overlapping.",
+    "All CTA buttons should be click-to-call. Format: href='tel:6467509932'. NO online booking forms.",
+    "Use lucide-react or @phosphor-icons/react for minimalist luxury icons (Instagram, Facebook, TikTok, Map Pin, Phone).",
+    "Header must use Crystal Glassmorphism, not generic transparency.",
+    "For the future gallery placeholder, create a beautifully designed div with a soft background color, a delicate floral icon, and 'Coming Soon: Mon Reve Spa Interior'.",
+    "Use the provided logo at /assets/logo.png.",
+    "Apply fonts globally using Tailwind CSS classes properly configured in tailwind.config.js."
+  ],
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "Do not converge toward generic outputs.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters.",
+    "DO NOT apply universal transition (transition: all).",
+    "DO NOT center align the app container (.App { text-align: center; }).",
+    "Always use modern button styles.",
+    "NEVER use emoji characters for icons.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "All interactive and key informational elements MUST include a data-testid attribute."
+  ]
+}
