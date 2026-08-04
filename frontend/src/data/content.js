@@ -1,0 +1,240 @@
+// Bilingual content + service menu for Mon Reve Nail Spa
+
+export const BUSINESS = {
+  name: "Mon Reve Nail Spa",
+  phone: "646-750-9932",
+  phoneHref: "tel:6467509932",
+  address: "17171 Pines Blvd, Pembroke Pines, FL 33027",
+  addressShort: "17171 Pines Blvd, Pembroke Pines, FL 33027",
+  mapQuery: "17171 Pines Blvd, Pembroke Pines, FL 33027",
+  social: {
+    instagram: "https://instagram.com/monrevenailspa",
+    facebook: "https://www.facebook.com/andrea.nieves.1690",
+    tiktok: "https://www.tiktok.com/@monreve96",
+  },
+};
+
+export const IMAGES = {
+  heroFloral:
+    "https://images.unsplash.com/photo-1764513168327-309c566fbc36?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbWluaW1hbCUyMGZsb3JhbCUyMHRleHR1cmUlMjBwaW5rfGVufDB8fHx8MTc4NTg3MDAwOHww&ixlib=rb-4.1.0&q=85",
+  nailArt1:
+    "https://images.unsplash.com/photo-1780402695869-49cfb47f9f9b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBuYWlsJTIwYXJ0JTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
+  nailArt2:
+    "https://images.unsplash.com/photo-1777287216954-2b4b22bb6bf2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBuYWlsJTIwYXJ0JTIwY2xvc2UlMjB1cHxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
+  pedicure1:
+    "https://images.unsplash.com/photo-1600428877878-1a0fd85beda8?crop=entropy&cs=srgb&fm=jpg&q=85&w=1200",
+  spa:
+    "https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200",
+  pedicure2:
+    "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxzcGElMjBwZWRpY3VyZSUyMGx1eHVyeXxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
+  logo: "/assets/logo.png",
+};
+
+// Gallery images (nail photography)
+export const GALLERY = [
+  { src: IMAGES.nailArt1, alt_en: "Luxury nail art design", alt_es: "Diseño de uñas de lujo" },
+  { src: IMAGES.nailArt2, alt_en: "Metallic stiletto nails", alt_es: "Uñas stiletto metálicas" },
+  { src: IMAGES.spa, alt_en: "Spa pedicure with flowers", alt_es: "Pedicura spa con flores" },
+  { src: IMAGES.pedicure2, alt_en: "Relaxing luxury pedicure", alt_es: "Pedicura de lujo relajante" },
+  {
+    src: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    alt_en: "Soft pink manicure", alt_es: "Manicura rosa suave",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    alt_en: "French tip nails", alt_es: "Uñas francesas",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    alt_en: "Glossy red nails", alt_es: "Uñas rojas brillantes",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1522337094846-8a818192de1f?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
+    alt_en: "Manicure detail", alt_es: "Detalle de manicura",
+  },
+];
+
+export const CATEGORIES = [
+  {
+    id: "natural",
+    title_en: "Natural Nails",
+    title_es: "Uñas Naturales",
+    image: IMAGES.nailArt2,
+    items: [
+      { name_en: "Regular Manicure", name_es: "Manicura Regular", price: "$25" },
+      { name_en: "Gel Manicure", name_es: "Manicura en Gel", price: "$35" },
+      { name_en: "Hand Polish Change", name_es: "Cambio de Esmalte (Manos)", price: "$15" },
+    ],
+  },
+  {
+    id: "pedicures",
+    title_en: "Pedicures",
+    title_es: "Pedicuras",
+    image: IMAGES.pedicure1,
+    items: [
+      { name_en: "Regular Pedicure", name_es: "Pedicura Regular", price: "$35" },
+      { name_en: "Gel Pedicure", name_es: "Pedicura en Gel", price: "$50" },
+      { name_en: "Spa Pedicure", name_es: "Pedicura Spa", price: "$55" },
+      { name_en: "Volcano Pedicure", name_es: "Pedicura Volcán", price: "$65" },
+      { name_en: "Foot Polish Change", name_es: "Cambio de Esmalte (Pies)", price: "$18" },
+    ],
+  },
+  {
+    id: "builder",
+    title_en: "Builder Gel",
+    title_es: "Builder Gel",
+    image: IMAGES.nailArt1,
+    items: [
+      { name_en: "Builder Gel Overlay", name_es: "Cobertura Builder Gel", price: "$65" },
+      { name_en: "Builder Gel Refill", name_es: "Relleno Builder Gel", price: "$55" },
+      { name_en: "Rubber Base", name_es: "Rubber Base", price: "$55" },
+    ],
+  },
+  {
+    id: "acrylic",
+    title_en: "Acrylic",
+    title_es: "Acrílico",
+    image: IMAGES.nailArt2,
+    items: [
+      { name_en: "Acrylic Full Set", name_es: "Set Completo de Acrílico", price: "from $65", price_es: "desde $65" },
+      { name_en: "Acrylic Refill", name_es: "Relleno de Acrílico", price: "$50" },
+      { name_en: "Nail Repair", name_es: "Reparación de Uña", price: "$7", note_en: "per nail", note_es: "por uña" },
+    ],
+  },
+  {
+    id: "gelx",
+    title_en: "Gel-X & Apres",
+    title_es: "Gel-X y Apres",
+    image: IMAGES.nailArt1,
+    items: [
+      { name_en: "Gel-X or Apres Full Set", name_es: "Set Completo Gel-X o Apres", price: "$65" },
+      { name_en: "Gel-X Refill", name_es: "Relleno Gel-X", price: "$55" },
+      { name_en: "Apres Removal", name_es: "Remoción Apres", price: "$15" },
+    ],
+  },
+  {
+    id: "dip",
+    title_en: "Dip Powder",
+    title_es: "Dip Powder",
+    image: IMAGES.pedicure2,
+    items: [
+      { name_en: "Dip Powder Full Set", name_es: "Set Completo Dip Powder", price: "$50" },
+      { name_en: "Gel Removal", name_es: "Remoción de Gel", price: "$10" },
+    ],
+  },
+  {
+    id: "addons",
+    title_en: "Add-ons",
+    title_es: "Complementos",
+    image: IMAGES.nailArt2,
+    items: [
+      { name_en: "French", name_es: "Francés", price: "$10" },
+      { name_en: "Chrome", name_es: "Chrome", price: "$15" },
+      { name_en: "Nail Art", name_es: "Arte de Uñas", price: "from $5", price_es: "desde $5" },
+      { name_en: "Long Length", name_es: "Largo Extra", price: "from $10", price_es: "desde $10" },
+      { name_en: "Cat-Eye", name_es: "Cat-Eye", price: "$15" },
+      { name_en: "Special Designs", name_es: "Diseños Especiales", price: "Varies", price_es: "Variable" },
+    ],
+  },
+];
+
+export const SIGNATURE = {
+  id: "monreve",
+  title_en: "The Mon Reve Pedicure",
+  title_es: "La Pedicura Mon Reve",
+  price: "$75",
+  image: IMAGES.spa,
+  tagline_en: "The Ultimate Experience",
+  tagline_es: "La Experiencia Definitiva",
+  desc_en:
+    "The very best of all our pedicures in one complete ritual of relaxation and renewal — pure escape for tired feet.",
+  desc_es:
+    "Lo mejor de todos nuestros pedicures en un ritual completo de relajación y renovación — un escape puro para tus pies.",
+  includes_en: [
+    "Mineral salt soak & aromatherapy",
+    "Sugar scrub exfoliation",
+    "Detox hydrating mask",
+    "Relaxing massage with CBD oil",
+    "Hot paraffin for extra softness",
+    "Hot stone massage",
+    "Hydrating lotion with essential oil",
+    "Long-lasting gel polish",
+  ],
+  includes_es: [
+    "Remojo con sales minerales y aromaterapia",
+    "Exfoliación sugar scrub",
+    "Mascarilla hidratante detox",
+    "Masaje relajante con aceite de CBD",
+    "Parafina caliente para suavidad extrema",
+    "Masaje con piedras calientes",
+    "Loción hidratante con aceite esencial",
+    "Esmalte en gel de larga duración",
+  ],
+};
+
+export const T = {
+  en: {
+    nav: { home: "Home", services: "Services", gallery: "Gallery", contact: "Contact" },
+    banner: "Now open inside Sedano's · Kiosk #5 · Pembroke Pines",
+    reserve: "Reserve by Phone",
+    callNow: "Call Now",
+    langLabel: "EN",
+    hero: {
+      overline: "Pembroke Pines · Inside Sedano's · Kiosk #5",
+      line1: "Where beauty",
+      line2: "becomes a",
+      line3: "dream.",
+      sub: "Luxury nail artistry, tailored to you. Reservations by phone only.",
+      cta: "Reserve · 646-750-9932",
+    },
+    marquee: "MON REVE NAIL SPA · BEAUTY & LUXURY · PEMBROKE PINES · ",
+    manifesto: {
+      heading: "The Mon Reve philosophy",
+      chapters: [
+        { no: "01", title: "Crafted with intention", body: "Every set is shaped by hand with meticulous care — from natural nails to intricate art. We treat detail as devotion." },
+        { no: "02", title: "A moment that's yours", body: "Step away from the everyday. Our airy, gold-lit space is designed to feel like a quiet exhale in the middle of your day." },
+        { no: "03", title: "Beauty that lasts", body: "Premium builder gel, Gel-X, acrylic and dip powder — flawless finishes engineered to stay pristine long after you leave." },
+      ],
+    },
+    featured: { overline: "What we do", heading: "Featured services", viewAll: "View full menu" },
+    galleryTeaser: { overline: "Our work", heading: "A gallery of dreams", viewAll: "View gallery" },
+    locationBlock: { overline: "Find us", heading: "Location & hours", inside: "Inside Sedano's · Kiosk #5", getDirections: "Get directions" },
+    hours: { title: "Hours", weekdays: "Monday – Saturday", weekdaysTime: "10:00 AM – 8:00 PM", sunday: "Sunday", sundayTime: "11:00 AM – 5:00 PM" },
+    servicesPage: { overline: "The menu", heading: "Services & pricing", intro: "Prices are a starting guide. Final pricing may vary with length, design and detail. Reserve your seat by phone.", signatureOverline: "Signature ritual" },
+    galleryPage: { overline: "Portfolio", heading: "Photo gallery", intro: "A glimpse of the artistry that leaves our studio.", future: "Coming Soon: Mon Reve Spa Interior", futureSub: "New photos of our studio are on the way." },
+    contactPage: { overline: "Say hello", heading: "Visit Mon Reve", intro: "We can't wait to pamper you. Reservations are by phone only — no online booking.", addressTitle: "Address", phoneTitle: "Reservations", hoursTitle: "Opening hours", mapTitle: "On the map" },
+    footer: { tagline: "Luxury nail care, born from a dream.", followUs: "Follow us", rights: "All rights reserved." },
+  },
+  es: {
+    nav: { home: "Inicio", services: "Servicios", gallery: "Galería", contact: "Contacto" },
+    banner: "Ya abierto dentro de Sedano's · Kiosco #5 · Pembroke Pines",
+    reserve: "Reservar por Teléfono",
+    callNow: "Llamar Ahora",
+    langLabel: "ES",
+    hero: {
+      overline: "Pembroke Pines · Dentro de Sedano's · Kiosco #5",
+      line1: "Donde la belleza",
+      line2: "se vuelve un",
+      line3: "sueño.",
+      sub: "Arte de uñas de lujo, a tu medida. Reservas solo por teléfono.",
+      cta: "Reservar · 646-750-9932",
+    },
+    marquee: "MON REVE NAIL SPA · BELLEZA Y LUJO · PEMBROKE PINES · ",
+    manifesto: {
+      heading: "La filosofía Mon Reve",
+      chapters: [
+        { no: "01", title: "Hecho con intención", body: "Cada set se moldea a mano con cuidado meticuloso — desde uñas naturales hasta arte detallado. El detalle es nuestra devoción." },
+        { no: "02", title: "Un momento tuyo", body: "Aléjate de lo cotidiano. Nuestro espacio luminoso y dorado está diseñado para sentirse como una pausa serena en tu día." },
+        { no: "03", title: "Belleza que perdura", body: "Builder gel premium, Gel-X, acrílico y dip powder — acabados impecables diseñados para lucir perfectos por mucho tiempo." },
+      ],
+    },
+    featured: { overline: "Lo que hacemos", heading: "Servicios destacados", viewAll: "Ver menú completo" },
+    galleryTeaser: { overline: "Nuestro trabajo", heading: "Una galería de sueños", viewAll: "Ver galería" },
+    locationBlock: { overline: "Encuéntranos", heading: "Ubicación y horario", inside: "Dentro de Sedano's · Kiosco #5", getDirections: "Cómo llegar" },
+    hours: { title: "Horario", weekdays: "Lunes – Sábado", weekdaysTime: "10:00 AM – 8:00 PM", sunday: "Domingo", sundayTime: "11:00 AM – 5:00 PM" },
+    servicesPage: { overline: "El menú", heading: "Servicios y precios", intro: "Los precios son una guía inicial. El precio final puede variar según largo, diseño y detalle. Reserva tu cita por teléfono.", signatureOverline: "Ritual insignia" },
+    galleryPage: { overline: "Portafolio", heading: "Galería de fotos", intro: "Un vistazo al arte que sale de nuestro estudio.", future: "Próximamente: Interior del Spa Mon Reve", futureSub: "Nuevas fotos de nuestro estudio están en camino." },
+    contactPage: { overline: "Saluda", heading: "Visita Mon Reve", intro: "No podemos esperar a consentirte. Las reservas son solo por teléfono — sin reservas en línea.", addressTitle: "Dirección", phoneTitle: "Reservas", hoursTitle: "Horario de atención", mapTitle: "En el mapa" },
+    footer: { tagline: "Cuidado de uñas de lujo, nacido de un sueño.", followUs: "Síguenos", rights: "Todos los derechos reservados." },
+  },
+};
