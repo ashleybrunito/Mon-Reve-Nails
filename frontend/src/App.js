@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import "@/App.css";
-import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter, Routes, Route, useLocation } from "react-router-dom";
 import { LanguageProvider } from "@/context/LanguageContext";
 import useLenis from "@/hooks/useLenis";
 import Header from "@/components/site/Header";
@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <LanguageProvider>
-        <BrowserRouter>
+        <HashRouter>
           <ScrollToTop />
           <Header />
           <main>
@@ -35,7 +35,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
-        </BrowserRouter>
+        </HashRouter>
       </LanguageProvider>
     </div>
   );

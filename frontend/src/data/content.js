@@ -14,6 +14,8 @@ export const BUSINESS = {
   },
 };
 
+const ASSET_BASE = process.env.PUBLIC_URL || "";
+
 export const IMAGES = {
   heroFloral:
     "https://images.unsplash.com/photo-1764513168327-309c566fbc36?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2ODh8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwbWluaW1hbCUyMGZsb3JhbCUyMHRleHR1cmUlMjBwaW5rfGVufDB8fHx8MTc4NTg3MDAwOHww&ixlib=rb-4.1.0&q=85",
@@ -27,30 +29,80 @@ export const IMAGES = {
     "https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200",
   pedicure2:
     "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxzcGElMjBwZWRpY3VyZSUyMGx1eHVyeXxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
-  logo: "/assets/logo.png",
+  logo: `${ASSET_BASE}/assets/logo.png`,
 };
 
-// Gallery images (nail photography)
+// Gallery images (Mon Reve client work). The first five are featured on the homepage.
 export const GALLERY = [
-  { src: IMAGES.nailArt1, alt_en: "Luxury nail art design", alt_es: "Diseño de uñas de lujo" },
-  { src: IMAGES.nailArt2, alt_en: "Metallic stiletto nails", alt_es: "Uñas stiletto metálicas" },
-  { src: IMAGES.spa, alt_en: "Spa pedicure with flowers", alt_es: "Pedicura spa con flores" },
-  { src: IMAGES.pedicure2, alt_en: "Relaxing luxury pedicure", alt_es: "Pedicura de lujo relajante" },
   {
-    src: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    alt_en: "Soft pink manicure", alt_es: "Manicura rosa suave",
+    src: `${ASSET_BASE}/assets/gallery/478061581_17887939644192475_8347484175421345911_n.jpg`,
+    alt_en: "Pink almond nails with red French tips and heart accents",
+    alt_es: "Uñas almendradas rosadas con puntas francesas rojas y detalles de corazones",
   },
   {
-    src: "https://images.unsplash.com/photo-1604654894610-df63bc536371?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    alt_en: "French tip nails", alt_es: "Uñas francesas",
+    src: `${ASSET_BASE}/assets/gallery/621548936_17982481496959510_3936618406694251410_n.jpg`,
+    alt_en: "Pink almond nails with sculpted black French tips",
+    alt_es: "Uñas almendradas rosadas con puntas francesas negras esculpidas",
   },
   {
-    src: "https://images.unsplash.com/photo-1607779097040-26e80aa78e66?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    alt_en: "Glossy red nails", alt_es: "Uñas rojas brillantes",
+    src: `${ASSET_BASE}/assets/gallery/588494552_17920132557192475_2766963760376855176_n.jpg`,
+    alt_en: "Long red, gold, and blush statement nails",
+    alt_es: "Uñas largas llamativas en rojo, dorado y rosa suave",
   },
   {
-    src: "https://images.unsplash.com/photo-1522337094846-8a818192de1f?crop=entropy&cs=srgb&fm=jpg&q=85&w=1000",
-    alt_en: "Manicure detail", alt_es: "Detalle de manicura",
+    src: `${ASSET_BASE}/assets/gallery/624053893_18079295720033331_5115358124636921392_n.jpg`,
+    alt_en: "Glossy black nails with white floral details",
+    alt_es: "Uñas negras brillantes con detalles florales blancos",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/625054904_18256800598288515_6745722690197143004_n.jpg`,
+    alt_en: "Long pink ombre nails with delicate crystal accents",
+    alt_es: "Uñas largas rosadas en degradado con delicados detalles de cristal",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/470921101_17881373379192475_5288220039474707259_n.jpg`,
+    alt_en: "Glossy red square nails with winter art",
+    alt_es: "Uñas rojas cuadradas y brillantes con arte de invierno",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/454503177_17863466334192475_6176011656391875255_n.jpg`,
+    alt_en: "Blue French manicure with playful nail art",
+    alt_es: "Manicura francesa azul con arte de uñas divertido",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/454776443_17863592271192475_8147143332697713917_n.jpg`,
+    alt_en: "Pink almond manicure with pearlescent accents",
+    alt_es: "Manicura almendrada rosada con detalles nacarados",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/455262112_17864242086192475_7036952425832999720_n.jpg`,
+    alt_en: "Natural ombre almond manicure",
+    alt_es: "Manicura almendrada natural en degradado",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/485353071_17892029220192475_6359090822228583527_n.jpg`,
+    alt_en: "Soft pink manicure with gold leaf accents",
+    alt_es: "Manicura rosa suave con detalles de hoja dorada",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/554985446_17914151793192475_8306604681301071756_n.jpg`,
+    alt_en: "Blush manicure with delicate daisy nail art",
+    alt_es: "Manicura rosa suave con delicado arte de margaritas",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/599168234_17921737377192475_2560696099829725853_n.jpg`,
+    alt_en: "Classic glossy red square manicure",
+    alt_es: "Manicura roja clásica, cuadrada y brillante",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/624043655_18075138074375803_2932965325468921449_n.jpg`,
+    alt_en: "Milky white square nails with soft pink accents",
+    alt_es: "Uñas cuadradas blanco lechoso con detalles rosados suaves",
+  },
+  {
+    src: `${ASSET_BASE}/assets/gallery/624545753_18070894517625248_8367817247222488330_n.jpg`,
+    alt_en: "Pale pink manicure with a jeweled floral accent",
+    alt_es: "Manicura rosa pálido con un detalle floral de joyería",
   },
 ];
 
