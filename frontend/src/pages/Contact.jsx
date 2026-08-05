@@ -31,6 +31,9 @@ export default function Contact() {
             <a href={BUSINESS.phoneHref} className="mt-3 block font-serif text-4xl text-rose-deep transition-colors hover:text-ink sm:text-5xl" data-testid="contact-phone-large">
               {BUSINESS.phone}
             </a>
+            <a href={BUSINESS.phoneHref2} className="mt-2 block font-serif text-4xl text-rose-deep transition-colors hover:text-ink sm:text-5xl" data-testid="contact-phone-secondary">
+              {BUSINESS.phone2}
+            </a>
             <a href={BUSINESS.phoneHref} className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-rose-deep px-8 py-5 text-sm font-medium uppercase tracking-widest text-white transition-all duration-300 hover:scale-[1.02] hover:bg-ink sm:w-auto" data-testid="contact-call-button">
               <Phone className="h-5 w-5" /> {t.callNow}
             </a>
