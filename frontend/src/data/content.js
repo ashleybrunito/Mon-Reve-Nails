@@ -29,7 +29,7 @@ export const IMAGES = {
     "https://images.pexels.com/photos/3997379/pexels-photo-3997379.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1200",
   pedicure2:
     "https://images.unsplash.com/photo-1519415510236-718bdfcd89c8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2ODl8MHwxfHNlYXJjaHwxfHxzcGElMjBwZWRpY3VyZSUyMGx1eHVyeXxlbnwwfHx8fDE3ODU4NzAwMDh8MA&ixlib=rb-4.1.0&q=85",
-  logo: `${ASSET_BASE}/assets/logo.png`,
+  logo: `${ASSET_BASE}/assets/mr-logo-3-tone.svg`,
 };
 
 // Gallery images (Mon Reve client work). The first five are featured on the homepage.
@@ -37,37 +37,37 @@ export const GALLERY = [
   {
     src: `${ASSET_BASE}/assets/gallery/478061581_17887939644192475_8347484175421345911_n.jpg`,
     alt_en: "Pink almond nails with red French tips and heart accents",
-    alt_es: "Uñas almendradas rosadas con puntas francesas rojas y detalles de corazones",
+    alt_es: "UÃ±as almendradas rosadas con puntas francesas rojas y detalles de corazones",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/621548936_17982481496959510_3936618406694251410_n.jpg`,
     alt_en: "Pink almond nails with sculpted black French tips",
-    alt_es: "Uñas almendradas rosadas con puntas francesas negras esculpidas",
+    alt_es: "UÃ±as almendradas rosadas con puntas francesas negras esculpidas",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/588494552_17920132557192475_2766963760376855176_n.jpg`,
     alt_en: "Long red, gold, and blush statement nails",
-    alt_es: "Uñas largas llamativas en rojo, dorado y rosa suave",
+    alt_es: "UÃ±as largas llamativas en rojo, dorado y rosa suave",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/624053893_18079295720033331_5115358124636921392_n.jpg`,
     alt_en: "Glossy black nails with white floral details",
-    alt_es: "Uñas negras brillantes con detalles florales blancos",
+    alt_es: "UÃ±as negras brillantes con detalles florales blancos",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/625054904_18256800598288515_6745722690197143004_n.jpg`,
     alt_en: "Long pink ombre nails with delicate crystal accents",
-    alt_es: "Uñas largas rosadas en degradado con delicados detalles de cristal",
+    alt_es: "UÃ±as largas rosadas en degradado con delicados detalles de cristal",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/470921101_17881373379192475_5288220039474707259_n.jpg`,
     alt_en: "Glossy red square nails with winter art",
-    alt_es: "Uñas rojas cuadradas y brillantes con arte de invierno",
+    alt_es: "UÃ±as rojas cuadradas y brillantes con arte de invierno",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/454503177_17863466334192475_6176011656391875255_n.jpg`,
     alt_en: "Blue French manicure with playful nail art",
-    alt_es: "Manicura francesa azul con arte de uñas divertido",
+    alt_es: "Manicura francesa azul con arte de uÃ±as divertido",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/454776443_17863592271192475_8147143332697713917_n.jpg`,
@@ -92,17 +92,17 @@ export const GALLERY = [
   {
     src: `${ASSET_BASE}/assets/gallery/599168234_17921737377192475_2560696099829725853_n.jpg`,
     alt_en: "Classic glossy red square manicure",
-    alt_es: "Manicura roja clásica, cuadrada y brillante",
+    alt_es: "Manicura roja clÃ¡sica, cuadrada y brillante",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/624043655_18075138074375803_2932965325468921449_n.jpg`,
     alt_en: "Milky white square nails with soft pink accents",
-    alt_es: "Uñas cuadradas blanco lechoso con detalles rosados suaves",
+    alt_es: "UÃ±as cuadradas blanco lechoso con detalles rosados suaves",
   },
   {
     src: `${ASSET_BASE}/assets/gallery/624545753_18070894517625248_8367817247222488330_n.jpg`,
     alt_en: "Pale pink manicure with a jeweled floral accent",
-    alt_es: "Manicura rosa pálido con un detalle floral de joyería",
+    alt_es: "Manicura rosa pÃ¡lido con un detalle floral de joyerÃ­a",
   },
 ];
 
@@ -110,7 +110,7 @@ export const CATEGORIES = [
   {
     id: "natural",
     title_en: "Natural Nails",
-    title_es: "Uñas Naturales",
+    title_es: "UÃ±as Naturales",
     image: IMAGES.nailArt2,
     items: [
       { name_en: "Regular Manicure", name_es: "Manicura Regular", price: "$25" },
@@ -127,7 +127,7 @@ export const CATEGORIES = [
       { name_en: "Regular Pedicure", name_es: "Pedicura Regular", price: "$35" },
       { name_en: "Gel Pedicure", name_es: "Pedicura en Gel", price: "$50" },
       { name_en: "Spa Pedicure", name_es: "Pedicura Spa", price: "$55" },
-      { name_en: "Volcano Pedicure", name_es: "Pedicura Volcán", price: "$65" },
+      { name_en: "Volcano Pedicure", name_es: "Pedicura VolcÃ¡n", price: "$65" },
       { name_en: "Foot Polish Change", name_es: "Cambio de Esmalte (Pies)", price: "$18" },
     ],
   },
@@ -145,12 +145,12 @@ export const CATEGORIES = [
   {
     id: "acrylic",
     title_en: "Acrylic",
-    title_es: "Acrílico",
+    title_es: "AcrÃ­lico",
     image: IMAGES.nailArt2,
     items: [
-      { name_en: "Acrylic Full Set", name_es: "Set Completo de Acrílico", price: "from $65", price_es: "desde $65" },
-      { name_en: "Acrylic Refill", name_es: "Relleno de Acrílico", price: "$50" },
-      { name_en: "Nail Repair", name_es: "Reparación de Uña", price: "$7", note_en: "per nail", note_es: "por uña" },
+      { name_en: "Acrylic Full Set", name_es: "Set Completo de AcrÃ­lico", price: "from $65", price_es: "desde $65" },
+      { name_en: "Acrylic Refill", name_es: "Relleno de AcrÃ­lico", price: "$50" },
+      { name_en: "Nail Repair", name_es: "ReparaciÃ³n de UÃ±a", price: "$7", note_en: "per nail", note_es: "por uÃ±a" },
     ],
   },
   {
@@ -161,7 +161,7 @@ export const CATEGORIES = [
     items: [
       { name_en: "Gel-X or Apres Full Set", name_es: "Set Completo Gel-X o Apres", price: "$65" },
       { name_en: "Gel-X Refill", name_es: "Relleno Gel-X", price: "$55" },
-      { name_en: "Apres Removal", name_es: "Remoción Apres", price: "$15" },
+      { name_en: "Apres Removal", name_es: "RemociÃ³n Apres", price: "$15" },
     ],
   },
   {
@@ -171,7 +171,7 @@ export const CATEGORIES = [
     image: IMAGES.pedicure2,
     items: [
       { name_en: "Dip Powder Full Set", name_es: "Set Completo Dip Powder", price: "$50" },
-      { name_en: "Gel Removal", name_es: "Remoción de Gel", price: "$10" },
+      { name_en: "Gel Removal", name_es: "RemociÃ³n de Gel", price: "$10" },
     ],
   },
   {
@@ -180,12 +180,12 @@ export const CATEGORIES = [
     title_es: "Complementos",
     image: IMAGES.nailArt2,
     items: [
-      { name_en: "French", name_es: "Francés", price: "$10" },
+      { name_en: "French", name_es: "FrancÃ©s", price: "$10" },
       { name_en: "Chrome", name_es: "Chrome", price: "$15" },
-      { name_en: "Nail Art", name_es: "Arte de Uñas", price: "from $5", price_es: "desde $5" },
+      { name_en: "Nail Art", name_es: "Arte de UÃ±as", price: "from $5", price_es: "desde $5" },
       { name_en: "Long Length", name_es: "Largo Extra", price: "from $10", price_es: "desde $10" },
       { name_en: "Cat-Eye", name_es: "Cat-Eye", price: "$15" },
-      { name_en: "Special Designs", name_es: "Diseños Especiales", price: "Varies", price_es: "Variable" },
+      { name_en: "Special Designs", name_es: "DiseÃ±os Especiales", price: "Varies", price_es: "Variable" },
     ],
   },
 ];
@@ -199,9 +199,9 @@ export const SIGNATURE = {
   tagline_en: "The Ultimate Experience",
   tagline_es: "La Experiencia Definitiva",
   desc_en:
-    "The very best of all our pedicures in one complete ritual of relaxation and renewal — pure escape for tired feet.",
+    "The very best of all our pedicures in one complete ritual of relaxation and renewal â€” pure escape for tired feet.",
   desc_es:
-    "Lo mejor de todos nuestros pedicures en un ritual completo de relajación y renovación — un escape puro para tus pies.",
+    "Lo mejor de todos nuestros pedicures en un ritual completo de relajaciÃ³n y renovaciÃ³n â€” un escape puro para tus pies.",
   includes_en: [
     "Mineral salt soak & aromatherapy",
     "Sugar scrub exfoliation",
@@ -214,79 +214,79 @@ export const SIGNATURE = {
   ],
   includes_es: [
     "Remojo con sales minerales y aromaterapia",
-    "Exfoliación sugar scrub",
+    "ExfoliaciÃ³n sugar scrub",
     "Mascarilla hidratante detox",
     "Masaje relajante con aceite de CBD",
     "Parafina caliente para suavidad extrema",
     "Masaje con piedras calientes",
-    "Loción hidratante con aceite esencial",
-    "Esmalte en gel de larga duración",
+    "LociÃ³n hidratante con aceite esencial",
+    "Esmalte en gel de larga duraciÃ³n",
   ],
 };
 
 export const T = {
   en: {
     nav: { home: "Home", services: "Services", gallery: "Gallery", contact: "Contact" },
-    banner: "Now open inside Sedano's · Kiosk #5 · Pembroke Pines",
+    banner: "Now open inside Sedano's Â· Kiosk #5 Â· Pembroke Pines",
     reserve: "Reserve by Phone",
     callNow: "Call Now",
     langLabel: "EN",
     hero: {
-      overline: "Pembroke Pines · Inside Sedano's · Kiosk #5",
+      overline: "Pembroke Pines Â· Inside Sedano's Â· Kiosk #5",
       line1: "Where beauty",
       line2: "becomes a",
       line3: "dream.",
       sub: "Luxury nail artistry, tailored to you. Reservations by phone only.",
-      cta: "Reserve · 646-750-9932",
+      cta: "Reserve Â· 646-750-9932",
     },
-    marquee: "MON REVE NAIL SPA · BEAUTY & LUXURY · PEMBROKE PINES · ",
+    marquee: "MON REVE NAIL SPA Â· BEAUTY & LUXURY Â· PEMBROKE PINES Â· ",
     manifesto: {
       heading: "The Mon Reve philosophy",
       chapters: [
-        { no: "01", title: "Crafted with intention", body: "Every set is shaped by hand with meticulous care — from natural nails to intricate art. We treat detail as devotion." },
+        { no: "01", title: "Crafted with intention", body: "Every set is shaped by hand with meticulous care â€” from natural nails to intricate art. We treat detail as devotion." },
         { no: "02", title: "A moment that's yours", body: "Step away from the everyday. Our airy, gold-lit space is designed to feel like a quiet exhale in the middle of your day." },
-        { no: "03", title: "Beauty that lasts", body: "Premium builder gel, Gel-X, acrylic and dip powder — flawless finishes engineered to stay pristine long after you leave." },
+        { no: "03", title: "Beauty that lasts", body: "Premium builder gel, Gel-X, acrylic and dip powder â€” flawless finishes engineered to stay pristine long after you leave." },
       ],
     },
     featured: { overline: "What we do", heading: "Featured services", viewAll: "View full menu" },
     galleryTeaser: { overline: "Our work", heading: "A gallery of dreams", viewAll: "View gallery" },
-    locationBlock: { overline: "Find us", heading: "Location & hours", inside: "Inside Sedano's · Kiosk #5", getDirections: "Get directions" },
-    hours: { title: "Hours", weekdays: "Monday – Saturday", weekdaysTime: "10:00 AM – 8:00 PM", sunday: "Sunday", sundayTime: "11:00 AM – 5:00 PM" },
+    locationBlock: { overline: "Find us", heading: "Location & hours", inside: "Inside Sedano's Â· Kiosk #5", getDirections: "Get directions" },
+    hours: { title: "Hours", weekdays: "Monday â€“ Saturday", weekdaysTime: "10:00 AM â€“ 8:00 PM", sunday: "Sunday", sundayTime: "11:00 AM â€“ 5:00 PM" },
     servicesPage: { overline: "The menu", heading: "Services & pricing", intro: "Prices are a starting guide. Final pricing may vary with length, design and detail. Reserve your seat by phone.", signatureOverline: "Signature ritual" },
     galleryPage: { overline: "Portfolio", heading: "Photo gallery", intro: "A glimpse of the artistry that leaves our studio.", future: "Coming Soon: Mon Reve Spa Interior", futureSub: "New photos of our studio are on the way." },
-    contactPage: { overline: "Say hello", heading: "Visit Mon Reve", intro: "We can't wait to pamper you. Reservations are by phone only — no online booking.", addressTitle: "Address", phoneTitle: "Reservations", hoursTitle: "Opening hours", mapTitle: "On the map" },
+    contactPage: { overline: "Say hello", heading: "Visit Mon Reve", intro: "We can't wait to pamper you. Reservations are by phone only â€” no online booking.", addressTitle: "Address", phoneTitle: "Reservations", hoursTitle: "Opening hours", mapTitle: "On the map" },
     footer: { tagline: "Luxury nail care, born from a dream.", followUs: "Follow us", rights: "All rights reserved." },
   },
   es: {
-    nav: { home: "Inicio", services: "Servicios", gallery: "Galería", contact: "Contacto" },
-    banner: "Ya abierto dentro de Sedano's · Kiosco #5 · Pembroke Pines",
-    reserve: "Reservar por Teléfono",
+    nav: { home: "Inicio", services: "Servicios", gallery: "GalerÃ­a", contact: "Contacto" },
+    banner: "Ya abierto dentro de Sedano's Â· Kiosco #5 Â· Pembroke Pines",
+    reserve: "Reservar por TelÃ©fono",
     callNow: "Llamar Ahora",
     langLabel: "ES",
     hero: {
-      overline: "Pembroke Pines · Dentro de Sedano's · Kiosco #5",
+      overline: "Pembroke Pines Â· Dentro de Sedano's Â· Kiosco #5",
       line1: "Donde la belleza",
       line2: "se vuelve un",
-      line3: "sueño.",
-      sub: "Arte de uñas de lujo, a tu medida. Reservas solo por teléfono.",
-      cta: "Reservar · 646-750-9932",
+      line3: "sueÃ±o.",
+      sub: "Arte de uÃ±as de lujo, a tu medida. Reservas solo por telÃ©fono.",
+      cta: "Reservar Â· 646-750-9932",
     },
-    marquee: "MON REVE NAIL SPA · BELLEZA Y LUJO · PEMBROKE PINES · ",
+    marquee: "MON REVE NAIL SPA Â· BELLEZA Y LUJO Â· PEMBROKE PINES Â· ",
     manifesto: {
-      heading: "La filosofía Mon Reve",
+      heading: "La filosofÃ­a Mon Reve",
       chapters: [
-        { no: "01", title: "Hecho con intención", body: "Cada set se moldea a mano con cuidado meticuloso — desde uñas naturales hasta arte detallado. El detalle es nuestra devoción." },
-        { no: "02", title: "Un momento tuyo", body: "Aléjate de lo cotidiano. Nuestro espacio luminoso y dorado está diseñado para sentirse como una pausa serena en tu día." },
-        { no: "03", title: "Belleza que perdura", body: "Builder gel premium, Gel-X, acrílico y dip powder — acabados impecables diseñados para lucir perfectos por mucho tiempo." },
+        { no: "01", title: "Hecho con intenciÃ³n", body: "Cada set se moldea a mano con cuidado meticuloso â€” desde uÃ±as naturales hasta arte detallado. El detalle es nuestra devociÃ³n." },
+        { no: "02", title: "Un momento tuyo", body: "AlÃ©jate de lo cotidiano. Nuestro espacio luminoso y dorado estÃ¡ diseÃ±ado para sentirse como una pausa serena en tu dÃ­a." },
+        { no: "03", title: "Belleza que perdura", body: "Builder gel premium, Gel-X, acrÃ­lico y dip powder â€” acabados impecables diseÃ±ados para lucir perfectos por mucho tiempo." },
       ],
     },
-    featured: { overline: "Lo que hacemos", heading: "Servicios destacados", viewAll: "Ver menú completo" },
-    galleryTeaser: { overline: "Nuestro trabajo", heading: "Una galería de sueños", viewAll: "Ver galería" },
-    locationBlock: { overline: "Encuéntranos", heading: "Ubicación y horario", inside: "Dentro de Sedano's · Kiosco #5", getDirections: "Cómo llegar" },
-    hours: { title: "Horario", weekdays: "Lunes – Sábado", weekdaysTime: "10:00 AM – 8:00 PM", sunday: "Domingo", sundayTime: "11:00 AM – 5:00 PM" },
-    servicesPage: { overline: "El menú", heading: "Servicios y precios", intro: "Los precios son una guía inicial. El precio final puede variar según largo, diseño y detalle. Reserva tu cita por teléfono.", signatureOverline: "Ritual insignia" },
-    galleryPage: { overline: "Portafolio", heading: "Galería de fotos", intro: "Un vistazo al arte que sale de nuestro estudio.", future: "Próximamente: Interior del Spa Mon Reve", futureSub: "Nuevas fotos de nuestro estudio están en camino." },
-    contactPage: { overline: "Saluda", heading: "Visita Mon Reve", intro: "No podemos esperar a consentirte. Las reservas son solo por teléfono — sin reservas en línea.", addressTitle: "Dirección", phoneTitle: "Reservas", hoursTitle: "Horario de atención", mapTitle: "En el mapa" },
-    footer: { tagline: "Cuidado de uñas de lujo, nacido de un sueño.", followUs: "Síguenos", rights: "Todos los derechos reservados." },
+    featured: { overline: "Lo que hacemos", heading: "Servicios destacados", viewAll: "Ver menÃº completo" },
+    galleryTeaser: { overline: "Nuestro trabajo", heading: "Una galerÃ­a de sueÃ±os", viewAll: "Ver galerÃ­a" },
+    locationBlock: { overline: "EncuÃ©ntranos", heading: "UbicaciÃ³n y horario", inside: "Dentro de Sedano's Â· Kiosco #5", getDirections: "CÃ³mo llegar" },
+    hours: { title: "Horario", weekdays: "Lunes â€“ SÃ¡bado", weekdaysTime: "10:00 AM â€“ 8:00 PM", sunday: "Domingo", sundayTime: "11:00 AM â€“ 5:00 PM" },
+    servicesPage: { overline: "El menÃº", heading: "Servicios y precios", intro: "Los precios son una guÃ­a inicial. El precio final puede variar segÃºn largo, diseÃ±o y detalle. Reserva tu cita por telÃ©fono.", signatureOverline: "Ritual insignia" },
+    galleryPage: { overline: "Portafolio", heading: "GalerÃ­a de fotos", intro: "Un vistazo al arte que sale de nuestro estudio.", future: "PrÃ³ximamente: Interior del Spa Mon Reve", futureSub: "Nuevas fotos de nuestro estudio estÃ¡n en camino." },
+    contactPage: { overline: "Saluda", heading: "Visita Mon Reve", intro: "No podemos esperar a consentirte. Las reservas son solo por telÃ©fono â€” sin reservas en lÃ­nea.", addressTitle: "DirecciÃ³n", phoneTitle: "Reservas", hoursTitle: "Horario de atenciÃ³n", mapTitle: "En el mapa" },
+    footer: { tagline: "Cuidado de uÃ±as de lujo, nacido de un sueÃ±o.", followUs: "SÃ­guenos", rights: "Todos los derechos reservados." },
   },
 };
