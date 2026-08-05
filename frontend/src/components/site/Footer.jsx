@@ -25,7 +25,7 @@ export default function Footer() {
       <div className="relative mx-auto grid max-w-7xl gap-12 px-6 py-20 md:grid-cols-3 md:px-12">
         <div>
           <div className="flex items-center gap-3">
-            <img src={IMAGES.logo} alt="Mon Reve logo" className="h-12 w-12 rounded-full object-cover ring-1 ring-gold/50" />
+            <img src={IMAGES.logo} alt="Mon Reve logo" className="h-12 w-12 object-contain" />
             <span className="font-serif text-2xl text-white">
               Mon Reve <span className="font-italic-display text-rose">Nail Spa</span>
             </span>
@@ -41,6 +41,10 @@ export default function Footer() {
           <a href={BUSINESS.phoneHref} className="flex items-center gap-3 hover:text-rose transition-colors" data-testid="footer-phone">
             <Phone className="h-4 w-4 text-gold" />
             {BUSINESS.phone}
+          </a>
+          <a href={BUSINESS.phoneHref2} className="flex items-center gap-3 hover:text-rose transition-colors" data-testid="footer-phone-secondary">
+            <Phone className="h-4 w-4 text-gold" />
+            {BUSINESS.phone2}
           </a>
           <div className="flex items-start gap-3">
             <Clock className="mt-0.5 h-4 w-4 text-gold" />
