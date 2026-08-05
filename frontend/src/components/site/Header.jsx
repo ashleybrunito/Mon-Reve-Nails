@@ -49,7 +49,7 @@ export default function Header() {
       </div>
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 md:px-12">
         <Link to="/" className="flex items-center gap-3" data-testid="logo-link">
-          <img src={IMAGES.logo} alt="Mon Reve Nail Spa logo" className="h-11 w-11 rounded-full object-cover ring-1 ring-gold/40" />
+          <img src={IMAGES.logo} alt="Mon Reve Nail Spa logo" className="h-11 w-11 object-contain" />
           <span className="hidden font-serif text-xl tracking-wide text-ink sm:block">
             Mon Reve <span className="font-italic-display text-rose-deep">Nail Spa</span>
           </span>
