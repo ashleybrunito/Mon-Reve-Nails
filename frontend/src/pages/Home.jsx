@@ -32,7 +32,7 @@ function Hero() {
           <img
             src={IMAGES.logo}
             alt="Mon Reve Nail Spa"
-            className="h-28 w-28 rounded-full object-cover shadow-[0_20px_60px_-20px_rgba(190,120,150,0.6)] ring-2 ring-white md:h-44 md:w-44"
+            className="h-28 w-28 object-contain md:h-44 md:w-44"
           />
         </div>
       </motion.div>
@@ -231,6 +231,9 @@ function LocationHours() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a href={BUSINESS.phoneHref} className="inline-flex items-center gap-2 rounded-full bg-rose px-7 py-3.5 text-sm font-medium uppercase tracking-widest text-ink transition-all duration-300 hover:scale-[1.03] hover:bg-white" data-testid="location-call-button">
               <Phone className="h-4 w-4" /> {t.reserve}
+            </a>
+            <a href={BUSINESS.phoneHref2} className="inline-flex items-center gap-2 rounded-full border border-white/25 px-7 py-3.5 text-sm font-medium uppercase tracking-widest text-white transition-all duration-300 hover:border-rose">
+              <Phone className="h-4 w-4" /> {BUSINESS.phone2}
             </a>
             <a href={`https://maps.google.com/?q=${encodeURIComponent(BUSINESS.mapQuery)}`} target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-full border border-white/25 px-7 py-3.5 text-sm font-medium uppercase tracking-widest text-white transition-all duration-300 hover:border-rose">
               {t.locationBlock.getDirections}
