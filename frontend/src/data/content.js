@@ -4,6 +4,8 @@ export const BUSINESS = {
   name: "Mon Reve Nail Spa",
   phone: "646-750-9932",
   phoneHref: "tel:6467509932",
+  phone2: "+1 (954) 736-6180",
+  phoneHref2: "tel:+19547366180",
   address: "17171 Pines Blvd, Pembroke Pines, FL 33027",
   addressShort: "17171 Pines Blvd, Pembroke Pines, FL 33027",
   mapQuery: "17171 Pines Blvd, Pembroke Pines, FL 33027",
@@ -111,7 +113,7 @@ export const CATEGORIES = [
     id: "natural",
     title_en: "Natural Nails",
     title_es: "Uñas Naturales",
-    image: IMAGES.nailArt2,
+    image: IMAGES.spa,
     items: [
       { name_en: "Regular Manicure", name_es: "Manicura Regular", price: "$25" },
       { name_en: "Gel Manicure", name_es: "Manicura en Gel", price: "$35" },
@@ -157,7 +159,7 @@ export const CATEGORIES = [
     id: "gelx",
     title_en: "Gel-X & Apres",
     title_es: "Gel-X y Apres",
-    image: IMAGES.nailArt1,
+    image: `${ASSET_BASE}/assets/gallery/621548936_17982481496959510_3936618406694251410_n.jpg`,
     items: [
       { name_en: "Gel-X or Apres Full Set", name_es: "Set Completo Gel-X o Apres", price: "$65" },
       { name_en: "Gel-X Refill", name_es: "Relleno Gel-X", price: "$55" },
@@ -168,7 +170,7 @@ export const CATEGORIES = [
     id: "dip",
     title_en: "Dip Powder",
     title_es: "Dip Powder",
-    image: IMAGES.pedicure2,
+    image: `${ASSET_BASE}/assets/gallery/478061581_17887939644192475_8347484175421345911_n.jpg`,
     items: [
       { name_en: "Dip Powder Full Set", name_es: "Set Completo Dip Powder", price: "$50" },
       { name_en: "Gel Removal", name_es: "Remoción de Gel", price: "$10" },
@@ -178,7 +180,7 @@ export const CATEGORIES = [
     id: "addons",
     title_en: "Add-ons",
     title_es: "Complementos",
-    image: IMAGES.nailArt2,
+    image: `${ASSET_BASE}/assets/gallery/455262112_17864242086192475_7036952425832999720_n.jpg`,
     items: [
       { name_en: "French", name_es: "Francés", price: "$10" },
       { name_en: "Chrome", name_es: "Chrome", price: "$15" },
@@ -195,7 +197,7 @@ export const SIGNATURE = {
   title_en: "The Mon Reve Pedicure",
   title_es: "La Pedicura Mon Reve",
   price: "$75",
-  image: IMAGES.spa,
+  image: IMAGES.pedicure2,
   tagline_en: "The Ultimate Experience",
   tagline_es: "La Experiencia Definitiva",
   desc_en:
